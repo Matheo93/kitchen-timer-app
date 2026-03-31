@@ -1,0 +1,138 @@
+{
+  "active": true,
+  "rootSegmentId": "seg_1774937350659_7syjy8",
+  "currentSegmentId": "seg_1774937350659_7syjy8",
+  "currentLevel": 0,
+  "segmentsByLevel": {
+    "0": [
+      "seg_1774937350659_7syjy8"
+    ]
+  },
+  "segments": {
+    "seg_1774937350659_7syjy8": {
+      "id": "seg_1774937350659_7syjy8",
+      "segment": "Recipe timer for home cooks — food",
+      "startedAt": "2026-03-31T06:09:10.659Z",
+      "phase": "explore",
+      "children": [],
+      "triangle": {
+        "passe": true,
+        "present": false,
+        "futur": false
+      },
+      "thermo": {
+        "temperature": 0.8,
+        "scoreHistory": [],
+        "delta": 0,
+        "stalledCount": 0,
+        "impactedBy": []
+      },
+      "exploration": {
+        "marche": {
+          "dimension": "marche",
+          "questions": [
+            "Quelles sont les tendances actuelles pour \"/tmp/thermo-test-boucle\"?",
+            "Qui sont les principaux concurrents de \"/tmp/thermo-test-boucle\"?",
+            "Quelles opportunités de marché pour \"/tmp/thermo-test-boucle\"?",
+            "Quelle taille de marché pour \"/tmp/thermo-test-boucle\"?"
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"marche\""
+        },
+        "users": {
+          "dimension": "users",
+          "questions": [
+            "Quels sont les personas types pour \"/tmp/thermo-test-boucle\"?",
+            "Quelles frustrations résolvent \"/tmp/thermo-test-boucle\"?",
+            "Quels jobs-to-be-done pour \"/tmp/thermo-test-boucle\"?",
+            "Quels moments de consommation pour \"/tmp/thermo-test-boucle\"?"
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"users\""
+        },
+        "tech": {
+          "dimension": "tech",
+          "questions": [
+            "Quelle stack technique pour \"/tmp/thermo-test-boucle\"?",
+            "Quels patterns d'architecture pour \"/tmp/thermo-test-boucle\"?",
+            "Quelles APIs tierces pour \"/tmp/thermo-test-boucle\"?",
+            "Quelles contraintes techniques pour \"/tmp/thermo-test-boucle\"?"
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"tech\""
+        },
+        "ux": {
+          "dimension": "ux",
+          "questions": [
+            "Quels flows principaux pour \"/tmp/thermo-test-boucle\"?",
+            "Quelles inspirations UI pour \"/tmp/thermo-test-boucle\"?",
+            "Quels micro-interactions pour \"/tmp/thermo-test-boucle\"?",
+            "Quels benchmarks UX pour \"/tmp/thermo-test-boucle\"?"
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"ux\""
+        },
+        "design": {
+          "dimension": "design",
+          "questions": [
+            "WHO are the users? (Developers? Consumers? Enterprise?) - Pour \"/tmp/thermo-test-boucle\"",
+            "WHAT emotion should this evoke? (Trust? Excitement? Calm? Urgency?)",
+            "What makes this UNFORGETTABLE? What's the ONE thing users will remember?",
+            "Pick an EXTREME: brutally minimal, maximalist chaos, retro-futuristic, luxury/refined, playful?"
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"design\""
+        },
+        "mobile": {
+          "dimension": "mobile",
+          "questions": [
+            "Quand quelqu'un utilise \"/tmp/thermo-test-boucle\" sur son téléphone, dans quelle SITUATION est-il ? (Debout dans le métro d'une main ? Allongé dans son lit ? En marchant ? Assis concentré ?) La posture physique de ton user DÉTERMINE toute l'UX mobile. Une app de méditation ≠ une app de notes rapides ≠ un dashboard.",
+            "Ferme les yeux et imagine ton user qui ouvre \"/tmp/thermo-test-boucle\" sur iPhone. Son pouce est en bas de l'écran. Qu'est-ce qu'il TOUCHE en premier ? Qu'est-ce qu'il veut faire en MOINS DE 3 SECONDES ? Cette action #1 doit être accessible au pouce, pas cachée dans un menu en haut.",
+            "Sur desktop tu as la souris, le hover, le clavier. Sur mobile tu as LE POUCE et c'est tout. Comment \"/tmp/thermo-test-boucle\" transforme-t-il chaque interaction desktop en interaction tactile ? (Un hover → devient quoi ? Un clic droit → devient quoi ? Un raccourci clavier → devient quoi ?)",
+            "Quelle est l'ÉMOTION que \"/tmp/thermo-test-boucle\" doit provoquer sur mobile ? (Calme et zen ? Rapide et efficace ? Ludique et fun ?) Cette émotion dicte tout : les transitions (lentes et fluides vs snappy), les espacements (aérés vs compacts), les feedbacks (vibration douce vs son percutant)."
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"mobile\""
+        },
+        "i18n": {
+          "dimension": "i18n",
+          "questions": [
+            "Quelles LANGUES parlent les utilisateurs cibles de \"/tmp/thermo-test-boucle\"? (FR seul? EN+FR? Mondial?)",
+            "Comment le CONTENU DYNAMIQUE sera-t-il traduit dans \"/tmp/thermo-test-boucle\"? (Base de données multilingue? CMS? API traduction?)",
+            "Quels éléments de \"/tmp/thermo-test-boucle\" sont CULTURELLEMENT SENSIBLES? (Dates? Devises? Couleurs? Images?)",
+            "Comment les LAYOUTS s'adapteront-ils aux langues longues (allemand) ou RTL (arabe)?"
+          ],
+          "status": "à explorer",
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"i18n\""
+        }
+      },
+      "requiredAnswers": 28,
+      "providedAnswers": 0,
+      "usedMemoryIds": [],
+      "segmentType": "feature",
+      "researchProofs": {
+        "webSearches": "[\"Recipe timer app UX 2025: SideChef step-by-step timers, Paprika auto-parses time in text into clickable timers, multiple timers supported. Key patterns: cook mode keeps screen on, visual countdown, voice control.\", \"Next.js React recipe timer: react-timer-hook for countdown, setInterval with hooks, localStorage for recipes. Multi-step timer = array of steps with durations, navigate between steps.\"]",
+        "competitorScreenshots": [],
+        "competitorAnalysis": [],
+        "taskIds": [],
+        "segmentType": "feature",
+        "exploredAt": "2026-03-31T06:09:46.664Z"
+      }
+    }
+  },
+  "completedCount": 0,
+  "depth": 0,
+  "maxDepth": 7,
+  "maxBranches": 5,
+  "maxTotalSegments": 200,
+  "sprintsSinceLastSymposium": 0,
+  "symposiumInterval": 10,
+  "thermoConfig": {
+    "alpha": 0.9,
+    "epsilon": 1,
+    "initialTemperature": 0.8,
+    "maxStalledCount": 3,
+    "reheatAmount": 0.15
+  },
+  "appCategory": "wellness"
+}

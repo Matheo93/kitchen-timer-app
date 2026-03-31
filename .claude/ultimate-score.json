@@ -1,0 +1,15 @@
+{
+  "explores": 2,
+  "reflections": 0,
+  "backlog": 0,
+  "pages": 0,
+  "components": 0,
+  "actions": 0,
+  "types": 0,
+  "tests": 0,
+  "typescriptErrors": -1,
+  "eslintWarnings": -1,
+  "testsPass": false,
+  "lighthouseScore": 0,
+  "screenshots": []
+}
