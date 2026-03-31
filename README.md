@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kitchen Timer — Recipe Step Timer for Home Cooks
 
-## Getting Started
+A visual step-by-step recipe timer. Each cooking stage has its own steam-pot visualization encoding progress through steam and heat arcs. Track every step, never lose your place.
 
-First, run the development server:
+**Live:** [https://thermo-test-boucle.vercel.app](https://thermo-test-boucle.vercel.app)
+**GitHub:** [https://github.com/Matheo93/kitchen-timer-app](https://github.com/Matheo93/kitchen-timer-app)
+
+## Features
+
+- Steam pot canvas animation encodes cooking progress (steam, arc, heat)
+- 4 sample recipes (Classic Bolognese, Dark Chocolate Cake, Herb Roasted Chicken, Wild Mushroom Risotto)
+- Recipe difficulty filtering: All / Easy / Medium / Advanced
+- EN / FR locale switching
+- Dark mode with system preference detection
+- Custom recipe creation with step editor and validation
+- localStorage persistence for custom recipes
+- PWA: installable, works offline (service worker cache)
+- Haptic feedback on step completion (navigator.vibrate)
+- Push notifications when timer step ends
+- Keyboard shortcuts: Space (play/pause), Escape (back), Arrow keys (steps)
+- 40 tests (hooks, storage, React components) — 0 TypeScript errors
+
+## Tech Stack
+
+- Next.js 15 App Router + TypeScript strict mode
+- Tailwind CSS v4
+- Framer Motion animations
+- Zod validation
+- Vitest + React Testing Library
+- Playwright E2E tests
+- Static export (output: "export") on Vercel CDN
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+bun dev          # http://localhost:3000
+bun run test     # 40 tests
+bun run build    # production build → ./out
+bunx tsc --noEmit  # type check
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Auto-deployed to Vercel on every push to `main` via GitHub integration.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# Manual deploy
+vercel --prod
+```
