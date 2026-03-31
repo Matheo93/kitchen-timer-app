@@ -37,7 +37,7 @@ export function CookingView({ recipe, onBack, locale = 'en' }: CookingViewProps)
     skipToStep,
   } = useRecipeTimer(recipe)
 
-  const { playComplete, playFinish } = useStepCompleteSound()
+  const { playTick, playComplete, playFinish } = useStepCompleteSound()
   const haptics = useHaptics()
   const { notifyStepComplete, notifyRecipeComplete } = useKitchenNotifications()
   const prevStepRef = useRef(currentStepIndex)
@@ -72,6 +72,14 @@ export function CookingView({ recipe, onBack, locale = 'en' }: CookingViewProps)
     }
     prevTimerStateRef.current = timerState
   }, [timerState, playFinish, recipe.title, isMuted, haptics, notifyRecipeComplete, t.cooking.recipeComplete])
+
+  // Countdown tick for last 3 seconds of each step
+  useEffect(() => {
+    if (timerState !== 'running' || isMuted) return
+    if (stepTimeRemaining === 3) playTick(1)
+    else if (stepTimeRemaining === 2) playTick(2)
+    else if (stepTimeRemaining === 1) playTick(3)
+  }, [stepTimeRemaining, timerState, isMuted, playTick])
 
   // Keyboard shortcuts
   useEffect(() => {
