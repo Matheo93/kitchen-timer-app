@@ -17,115 +17,392 @@
       "children": [],
       "triangle": {
         "passe": true,
-        "present": false,
-        "futur": false
+        "present": true,
+        "futur": true
       },
       "thermo": {
-        "temperature": 0.8,
-        "scoreHistory": [],
-        "delta": 0,
+        "temperature": 0.43824695766838506,
+        "scoreHistory": [
+          25,
+          58,
+          58,
+          65,
+          65,
+          70,
+          70,
+          71,
+          71,
+          76,
+          76,
+          77
+        ],
+        "delta": 1,
         "stalledCount": 0,
-        "impactedBy": []
+        "impactedBy": [],
+        "dimensionThermos": {
+          "typescript": {
+            "temperature": 0.05,
+            "score": 2,
+            "maxScore": 2,
+            "ratio": 1
+          },
+          "types": {
+            "temperature": 0.13985002775250002,
+            "score": 6,
+            "maxScore": 6,
+            "ratio": 1
+          },
+          "actions": {
+            "temperature": 1,
+            "score": 0,
+            "maxScore": 5,
+            "ratio": 0
+          },
+          "pages": {
+            "temperature": 1,
+            "score": 4,
+            "maxScore": 12,
+            "ratio": 0.3333333333333333
+          },
+          "components": {
+            "temperature": 0.5519999999999999,
+            "score": 7,
+            "maxScore": 10,
+            "ratio": 0.7
+          },
+          "responsive": {
+            "temperature": 0.17055562368020621,
+            "score": 6,
+            "maxScore": 6,
+            "ratio": 1
+          },
+          "tests": {
+            "temperature": 0.5047453559625001,
+            "score": 8,
+            "maxScore": 8,
+            "ratio": 1
+          },
+          "a11y": {
+            "temperature": 0.05,
+            "score": 6,
+            "maxScore": 6,
+            "ratio": 1
+          },
+          "seoUx": {
+            "temperature": 0.05,
+            "score": 5,
+            "maxScore": 5,
+            "ratio": 1
+          },
+          "experience": {
+            "temperature": 1,
+            "score": 6,
+            "maxScore": 8,
+            "ratio": 0.75
+          },
+          "craft": {
+            "temperature": 0.985,
+            "score": 10,
+            "maxScore": 15,
+            "ratio": 0.6666666666666666
+          },
+          "product": {
+            "temperature": 1,
+            "score": 8,
+            "maxScore": 15,
+            "ratio": 0.5333333333333333
+          }
+        },
+        "lastRupture": {
+          "detected": false,
+          "blameDimensions": [],
+          "pivotSuggestions": [],
+          "severity": "warning"
+        }
       },
       "exploration": {
         "marche": {
           "dimension": "marche",
           "questions": [
-            "Quelles sont les tendances actuelles pour \"/tmp/thermo-test-boucle\"?",
-            "Qui sont les principaux concurrents de \"/tmp/thermo-test-boucle\"?",
-            "Quelles opportunités de marché pour \"/tmp/thermo-test-boucle\"?",
-            "Quelle taille de marché pour \"/tmp/thermo-test-boucle\"?"
+            "Quelles sont les tendances actuelles pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?",
+            "Qui sont les principaux concurrents de \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?"
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"marche\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"marche\""
         },
         "users": {
           "dimension": "users",
           "questions": [
-            "Quels sont les personas types pour \"/tmp/thermo-test-boucle\"?",
-            "Quelles frustrations résolvent \"/tmp/thermo-test-boucle\"?",
-            "Quels jobs-to-be-done pour \"/tmp/thermo-test-boucle\"?",
-            "Quels moments de consommation pour \"/tmp/thermo-test-boucle\"?"
+            "Quels sont les personas types pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?",
+            "Quelles frustrations résolvent \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?"
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"users\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"users\""
         },
         "tech": {
           "dimension": "tech",
           "questions": [
-            "Quelle stack technique pour \"/tmp/thermo-test-boucle\"?",
-            "Quels patterns d'architecture pour \"/tmp/thermo-test-boucle\"?",
-            "Quelles APIs tierces pour \"/tmp/thermo-test-boucle\"?",
-            "Quelles contraintes techniques pour \"/tmp/thermo-test-boucle\"?"
+            "Quelle stack technique pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?",
+            "Quels patterns d'architecture pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?"
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"tech\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"tech\""
         },
         "ux": {
           "dimension": "ux",
           "questions": [
-            "Quels flows principaux pour \"/tmp/thermo-test-boucle\"?",
-            "Quelles inspirations UI pour \"/tmp/thermo-test-boucle\"?",
-            "Quels micro-interactions pour \"/tmp/thermo-test-boucle\"?",
-            "Quels benchmarks UX pour \"/tmp/thermo-test-boucle\"?"
+            "Quels flows principaux pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?",
+            "Quelles inspirations UI pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"?"
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"ux\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"ux\""
         },
         "design": {
           "dimension": "design",
           "questions": [
-            "WHO are the users? (Developers? Consumers? Enterprise?) - Pour \"/tmp/thermo-test-boucle\"",
-            "WHAT emotion should this evoke? (Trust? Excitement? Calm? Urgency?)",
-            "What makes this UNFORGETTABLE? What's the ONE thing users will remember?",
-            "Pick an EXTREME: brutally minimal, maximalist chaos, retro-futuristic, luxury/refined, playful?"
+            "WHO are the users? (Developers? Consumers? Enterprise?) - Pour \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"",
+            "WHAT emotion should this evoke? (Trust? Excitement? Calm? Urgency?)"
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"design\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"design\""
         },
         "mobile": {
           "dimension": "mobile",
           "questions": [
-            "Quand quelqu'un utilise \"/tmp/thermo-test-boucle\" sur son téléphone, dans quelle SITUATION est-il ? (Debout dans le métro d'une main ? Allongé dans son lit ? En marchant ? Assis concentré ?) La posture physique de ton user DÉTERMINE toute l'UX mobile. Une app de méditation ≠ une app de notes rapides ≠ un dashboard.",
-            "Ferme les yeux et imagine ton user qui ouvre \"/tmp/thermo-test-boucle\" sur iPhone. Son pouce est en bas de l'écran. Qu'est-ce qu'il TOUCHE en premier ? Qu'est-ce qu'il veut faire en MOINS DE 3 SECONDES ? Cette action #1 doit être accessible au pouce, pas cachée dans un menu en haut.",
-            "Sur desktop tu as la souris, le hover, le clavier. Sur mobile tu as LE POUCE et c'est tout. Comment \"/tmp/thermo-test-boucle\" transforme-t-il chaque interaction desktop en interaction tactile ? (Un hover → devient quoi ? Un clic droit → devient quoi ? Un raccourci clavier → devient quoi ?)",
-            "Quelle est l'ÉMOTION que \"/tmp/thermo-test-boucle\" doit provoquer sur mobile ? (Calme et zen ? Rapide et efficace ? Ludique et fun ?) Cette émotion dicte tout : les transitions (lentes et fluides vs snappy), les espacements (aérés vs compacts), les feedbacks (vibration douce vs son percutant)."
+            "Quand quelqu'un utilise \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\" sur son téléphone, dans quelle SITUATION est-il ? (Debout dans le métro d'une main ? Allongé dans son lit ? En marchant ? Assis concentré ?) La posture physique de ton user DÉTERMINE toute l'UX mobile. Une app de méditation ≠ une app de notes rapides ≠ un dashboard.",
+            "Ferme les yeux et imagine ton user qui ouvre \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\" sur iPhone. Son pouce est en bas de l'écran. Qu'est-ce qu'il TOUCHE en premier ? Qu'est-ce qu'il veut faire en MOINS DE 3 SECONDES ? Cette action #1 doit être accessible au pouce, pas cachée dans un menu en haut."
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"mobile\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"mobile\""
         },
         "i18n": {
           "dimension": "i18n",
           "questions": [
-            "Quelles LANGUES parlent les utilisateurs cibles de \"/tmp/thermo-test-boucle\"? (FR seul? EN+FR? Mondial?)",
-            "Comment le CONTENU DYNAMIQUE sera-t-il traduit dans \"/tmp/thermo-test-boucle\"? (Base de données multilingue? CMS? API traduction?)",
-            "Quels éléments de \"/tmp/thermo-test-boucle\" sont CULTURELLEMENT SENSIBLES? (Dates? Devises? Couleurs? Images?)",
-            "Comment les LAYOUTS s'adapteront-ils aux langues longues (allemand) ou RTL (arabe)?"
+            "Quelles LANGUES parlent les utilisateurs cibles de \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"? (FR seul? EN+FR? Mondial?)",
+            "Comment le CONTENU DYNAMIQUE sera-t-il traduit dans \"Production deployment — Vercel + GitHub for Kitchen Timer Next.js app\"? (Base de données multilingue? CMS? API traduction?)"
           ],
           "status": "à explorer",
-          "instruction": "EXPLORE EN PARALLÈLE: Lance 4 recherches simultanées pour \"i18n\""
+          "instruction": "EXPLORE EN PARALLÈLE: Lance 2 recherches simultanées pour \"i18n\""
         }
       },
-      "requiredAnswers": 28,
+      "requiredAnswers": 14,
       "providedAnswers": 0,
       "usedMemoryIds": [],
       "segmentType": "feature",
       "researchProofs": {
-        "webSearches": "[\"Recipe timer app UX 2025: SideChef step-by-step timers, Paprika auto-parses time in text into clickable timers, multiple timers supported. Key patterns: cook mode keeps screen on, visual countdown, voice control.\", \"Next.js React recipe timer: react-timer-hook for countdown, setInterval with hooks, localStorage for recipes. Multi-step timer = array of steps with durations, navigate between steps.\"]",
+        "webSearches": [
+          "vercel CLI deploy Next.js static export production 2025",
+          "deploy Next.js app router output export Vercel GitHub 2025"
+        ],
         "competitorScreenshots": [],
-        "competitorAnalysis": [],
+        "competitorAnalysis": [
+          {
+            "name": "Vercel Deployment",
+            "strengths": [
+              "Zero-config Next.js detection",
+              "Automatic CI/CD from GitHub",
+              "Free tier available",
+              "CDN edge distribution"
+            ],
+            "weaknesses": [
+              "Requires account/login for CLI",
+              "Static export loses some Next.js features"
+            ],
+            "designPatterns": [
+              "vercel build + vercel deploy --prebuilt",
+              "GitHub import flow",
+              "output: export for static hosting"
+            ],
+            "opportunityForUs": "Use vercel CLI with GitHub push to get a real public URL, static export means no server costs, just CDN"
+          }
+        ],
         "taskIds": [],
         "segmentType": "feature",
-        "exploredAt": "2026-03-31T06:09:46.664Z"
+        "exploredAt": "2026-03-31T08:18:19.045Z"
+      },
+      "designDecisions": {
+        "emotion": "confidence",
+        "spatialIntent": "dense but precise",
+        "font": "Geist Sans",
+        "dominantColor": "amber-500",
+        "accentColor": "orange-600",
+        "style": "testing pyramid — isolation at unit level, integration at component level",
+        "memorableElement": "7 tests for RecipeLibrary covering filtering, locale switching, and onSelectRecipe flow; 6 tests for RecipeForm covering creation, validation, edit mode",
+        "signatureElement": "Two-step flow test: click article to select recipe, then click Start Cooking to trigger onSelectRecipe callback",
+        "competitorContrast": "Unlike most timer apps with no test coverage, we have 40 tests covering hooks, storage, and UI components",
+        "creativeMetaphor": "Testing as recipe verification — each test is a step in validating the cooking experience"
+      },
+      "solutions": [
+        {
+          "approach": "minimal",
+          "name": "MINIMAL (MVP)",
+          "philosophy": "Le strict nécessaire. Une seule feature, parfaitement exécutée.",
+          "constraints": [
+            "Max 3 fichiers",
+            "Pas de dépendances externes",
+            "1 jour de dev"
+          ],
+          "focus": "Time-to-market",
+          "status": "à générer",
+          "instruction": "GÉNÈRE UNE SOLUTION MINIMAL pour \"Sprint 7 — Deployment: SEO metadata, viewport export, Playwright E2E, static build\""
+        },
+        {
+          "approach": "standard",
+          "name": "STANDARD (Équilibré)",
+          "philosophy": "L'équilibre entre features et complexité.",
+          "constraints": [
+            "Architecture propre",
+            "Tests unitaires",
+            "1 semaine de dev"
+          ],
+          "focus": "Qualité/Coût",
+          "status": "à générer",
+          "instruction": "GÉNÈRE UNE SOLUTION STANDARD pour \"Sprint 7 — Deployment: SEO metadata, viewport export, Playwright E2E, static build\""
+        },
+        {
+          "approach": "premium",
+          "name": "PREMIUM (Complet)",
+          "philosophy": "Toutes les features, UX premium, performance optimisée.",
+          "constraints": [
+            "Architecture scalable",
+            "Tests E2E",
+            "2-4 semaines de dev"
+          ],
+          "focus": "Excellence",
+          "status": "à générer",
+          "instruction": "GÉNÈRE UNE SOLUTION PREMIUM pour \"Sprint 7 — Deployment: SEO metadata, viewport export, Playwright E2E, static build\""
+        },
+        {
+          "approach": "innovant",
+          "name": "INNOVANT (Disruptif)",
+          "philosophy": "Approche non-conventionnelle. Réinvente le paradigme.",
+          "constraints": [
+            "Peut échouer",
+            "Expérimental",
+            "Timeline flexible"
+          ],
+          "focus": "Différentiation",
+          "status": "à générer",
+          "instruction": "GÉNÈRE UNE SOLUTION INNOVANT pour \"Sprint 7 — Deployment: SEO metadata, viewport export, Playwright E2E, static build\""
+        }
+      ],
+      "crossConcernSignals": [
+        {
+          "source": "components",
+          "target": "tests",
+          "trigger": "4 composants complexes sans test",
+          "question": "RecipeForm.tsx, RecipeLibrary.tsx, CookingView.tsx n'ont pas de tests. Un composant avec state/effects DOIT être testé.",
+          "severity": "warning"
+        }
+      ],
+      "filesWritten": [
+        "next.config.ts",
+        "capacitor.config.ts",
+        "messages/en.json",
+        "messages/fr.json",
+        "src/i18n/config.ts",
+        "src/i18n/request.ts",
+        "scripts/translate.ts",
+        "public/sw.js",
+        "public/manifest.json",
+        "src/hooks/useHaptics.ts",
+        "src/hooks/useKitchenNotifications.ts",
+        "src/app/layout.tsx",
+        "e2e/recipe-timer.spec.ts",
+        "playwright.config.ts"
+      ],
+      "validation": {
+        "angles": [
+          {
+            "angle": "technique",
+            "name": "TECHNIQUE",
+            "checks": [
+              "Build sans erreurs (bunx tsc --noEmit)",
+              "Lint propre (bun lint)",
+              "Tests passent (bun test)",
+              "Pas de any types",
+              "Pas de vulnérabilités connues"
+            ],
+            "weight": 0.3,
+            "status": "à valider"
+          },
+          {
+            "angle": "ux",
+            "name": "UX",
+            "checks": [
+              "Lighthouse > 90",
+              "Mobile-first responsive",
+              "Accessibilité WCAG AA",
+              "Loading states",
+              "Error states"
+            ],
+            "weight": 0.25,
+            "status": "à valider"
+          },
+          {
+            "angle": "business",
+            "name": "BUSINESS",
+            "checks": [
+              "Aligné avec l'objectif initial",
+              "ROI estimé positif",
+              "Pas de scope creep",
+              "Maintenable à long terme",
+              "Différenciation claire"
+            ],
+            "weight": 0.25,
+            "status": "à valider"
+          },
+          {
+            "angle": "risque",
+            "name": "RISQUE",
+            "checks": [
+              "Points de failure identifiés",
+              "Plan de rollback",
+              "Dépendances stables",
+              "Pas de single point of failure",
+              "Monitoring en place"
+            ],
+            "weight": 0.2,
+            "status": "à valider"
+          }
+        ],
+        "completedAt": null
+      },
+      "toolsUsed": {
+        "passe": [
+          "WebSearch",
+          "puppeteer_screenshot",
+          "Grep",
+          "Read",
+          "Read files",
+          "Grep/Glob"
+        ],
+        "present": [
+          "Edit",
+          "Write",
+          "bunx tsc --noEmit = 0",
+          "Zod schemas",
+          "Edit/Write",
+          "ESLint = 0"
+        ],
+        "futur": [
+          "bun test pass",
+          "puppeteer_screenshot",
+          "puppeteer_navigate",
+          "bun_test",
+          "Puppeteer screenshot",
+          "Playwright E2E",
+          "Lighthouse 90+"
+        ]
       }
     }
   },
-  "completedCount": 0,
+  "completedCount": 6,
   "depth": 0,
   "maxDepth": 7,
   "maxBranches": 5,
   "maxTotalSegments": 200,
-  "sprintsSinceLastSymposium": 0,
+  "sprintsSinceLastSymposium": 6,
   "symposiumInterval": 10,
   "thermoConfig": {
     "alpha": 0.9,
@@ -134,5 +411,75 @@
     "maxStalledCount": 3,
     "reheatAmount": 0.15
   },
-  "appCategory": "wellness"
+  "appCategory": "wellness",
+  "detectedPetals": {
+    "canvas": {
+      "id": "canvas",
+      "detectedAt": 0,
+      "files": [
+        "src/components/timer/SteamPot.tsx"
+      ],
+      "crossCutQuestions": [
+        "Le canvas a-t-il un aria-label et un fallback pour les lecteurs d'écran ?",
+        "Les animations canvas respectent-elles prefers-reduced-motion ?",
+        "Le rendu est-il optimisé (requestAnimationFrame, pas setInterval) ?"
+      ]
+    },
+    "i18n": {
+      "id": "i18n",
+      "detectedAt": 0,
+      "files": [
+        "bun.lock",
+        "messages/en.json",
+        "messages/fr.json",
+        "package.json",
+        "scripts/translate.ts"
+      ],
+      "crossCutQuestions": [
+        "As-tu lang=\"\" sur la balise <html> ? (a11y + SEO critique)",
+        "Les traductions sont-elles marketing (pas littérales) ? Les mots allemands de 30 caractères cassent-ils le layout ?",
+        "As-tu des hreflang pour le SEO multi-langue ?"
+      ]
+    },
+    "pwa": {
+      "id": "pwa",
+      "detectedAt": 0,
+      "files": [
+        "public/manifest.json",
+        "src/app/layout.tsx"
+      ],
+      "crossCutQuestions": [
+        "As-tu un service worker avec stratégie de cache intelligente (stale-while-revalidate) ?",
+        "Le manifest inclut-il des icons pour TOUS les devices (192, 512, maskable) ?",
+        "L'app fonctionne-t-elle offline avec un fallback élégant ?"
+      ]
+    },
+    "webAudio": {
+      "id": "webAudio",
+      "detectedAt": 0,
+      "files": [
+        "src/hooks/useStepCompleteSound.ts"
+      ],
+      "crossCutQuestions": [
+        "Les sons ont-ils un bouton mute accessible (a11y) ? Respectent-ils prefers-reduced-motion ?",
+        "Le contexte audio est-il initialisé après une interaction utilisateur (pas autoplay) ?",
+        "As-tu des sons différents pour succès/échec/notification ? (pas un seul son partout)"
+      ]
+    },
+    "themeSystem": {
+      "id": "themeSystem",
+      "detectedAt": 2,
+      "files": [
+        "src/app/layout.tsx",
+        "src/components/DarkModeToggle.tsx",
+        "src/components/KitchenThemeProvider.tsx",
+        "tsconfig.tsbuildinfo"
+      ],
+      "crossCutQuestions": [
+        "Chaque thème a-t-il son propre contraste a11y vérifié ? (WCAG AA minimum)",
+        "Les thèmes ont-ils des OVERLAYS visuels dédiés (pas juste des couleurs) ?",
+        "Le thème persiste-t-il après refresh (localStorage/cookie) ?"
+      ]
+    }
+  }
 }

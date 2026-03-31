@@ -1,0 +1,5 @@
+[test]
+# Exclude Playwright E2E tests from bun's test runner
+# Also exclude hooks tests that need jsdom — run those via 'bun run test' (vitest)
+# Use 'bun run test' (vitest) or 'bunx playwright test' for E2E
+root = "./src/lib"

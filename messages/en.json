@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "Kitchen Timer",
+    "tagline": "Step-by-step cooking with a visual timer for every stage."
+  },
+  "library": {
+    "title": "Kitchen Timer",
+    "filter": {
+      "all": "All",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Advanced"
+    },
+    "noRecipes": "No recipes found for this difficulty.",
+    "startCooking": "Start Cooking"
+  },
+  "cooking": {
+    "step": "Step",
+    "of": "of",
+    "total": "total",
+    "allStepsComplete": "All steps complete!",
+    "readyWhenYouAre": "Ready when you are",
+    "paused": "Paused",
+    "cooking": "Cooking...",
+    "next": "Next",
+    "allSteps": "All steps",
+    "hideSteps": "Hide steps",
+    "reset": "Reset",
+    "cookAgain": "Cook again",
+    "chooseAnother": "Choose another recipe",
+    "recipeComplete": "Recipe complete!",
+    "isReadyToServe": "is ready to serve."
+  },
+  "recipe": {
+    "servings": "servings",
+    "steps": "steps",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Advanced"
+  }
+}

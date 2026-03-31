@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "Minuteur Cuisine",
+    "tagline": "Cuisine pas-à-pas avec un minuteur visuel pour chaque étape."
+  },
+  "library": {
+    "title": "Minuteur Cuisine",
+    "filter": {
+      "all": "Tous",
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Avancé"
+    },
+    "noRecipes": "Aucune recette pour cette difficulté.",
+    "startCooking": "Commencer"
+  },
+  "cooking": {
+    "step": "Étape",
+    "of": "sur",
+    "total": "total",
+    "allStepsComplete": "Toutes les étapes terminées !",
+    "readyWhenYouAre": "Prêt quand vous voulez",
+    "paused": "En pause",
+    "cooking": "En cuisson...",
+    "next": "Suivant",
+    "allSteps": "Toutes les étapes",
+    "hideSteps": "Masquer",
+    "reset": "Réinitialiser",
+    "cookAgain": "Recuire",
+    "chooseAnother": "Choisir une autre recette",
+    "recipeComplete": "Recette terminée !",
+    "isReadyToServe": "est prêt à servir."
+  },
+  "recipe": {
+    "servings": "portions",
+    "steps": "étapes",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Avancé"
+  }
+}
